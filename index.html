@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Computer Game Development — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#">Computer Game Development</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li class="dropdown">
+          <a href="#labs" class="nav-link">Labs ▾</a>
+          <ul class="labs-dropdown">
+            <li><a href="labs/lab1.html">Lab 1</a></li>
+            <li><a href="labs/lab2.html">Lab 2</a></li>
+            <li><a href="labs/lab3.html">Lab 3</a></li>
+            <li><a href="labs/lab4.html">Lab 4</a></li>
+            <li><a href="labs/lab5.html">Lab 5</a></li>
+            <li><a href="labs/lab6.html">Lab 6</a></li>
+          </ul>
+        </li>
+        <li><a href="#about" class="nav-link">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Computer Game Development</h1>
+          <p class="subtitle">Portfolio by <strong>Your Name</strong></p>
+          <p class="intro">A concise showcase of labs and projects from the Computer Game Development course. Designed with a dark, game-inspired aesthetic and responsive layout.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#labs">View Labs</a>
+            <a class="btn btn-secondary" href="#about">About</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="mock-window">
+            <div class="mock-screen">Game Preview</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="labs" class="section labs">
+      <div class="container">
+        <h2>Labs</h2>
+        <p class="section-lead">Six labs make up the course. Click a completed lab to view the project.</p>
+        <div class="labs-grid">
+          <!-- Lab Card Template -->
+
+          <article class="lab-card">
+            <div class="lab-thumb" aria-hidden="true">1</div>
+            <div class="lab-body">
+              <h3>Lab 1 — Introduction to Game Loops</h3>
+              <p class="lab-desc">Basics of the game loop, input handling, and a simple sprite demo.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge completed">Completed</span>
+              <div class="lab-actions">
+                <a class="btn" href="labs/lab1.html">View Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-thumb" aria-hidden="true">2</div>
+            <div class="lab-body">
+              <h3>Lab 2 — Collision & Physics</h3>
+              <p class="lab-desc">Implementing collision detection and simple physics for objects.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge completed">Completed</span>
+              <div class="lab-actions">
+                <a class="btn" href="labs/lab2.html">View Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-thumb muted" aria-hidden="true">3</div>
+            <div class="lab-body">
+              <h3>Lab 3 — Level Design</h3>
+              <p class="lab-desc">Coming soon — Level layout, tilesets, and scene management.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge upcoming">Coming Soon</span>
+              <div class="lab-actions">
+                <button class="btn disabled" disabled>Coming Soon</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-thumb muted" aria-hidden="true">4</div>
+            <div class="lab-body">
+              <h3>Lab 4 — AI & Pathfinding</h3>
+              <p class="lab-desc">Coming soon — Enemy AI, pathfinding, and behavior trees.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge upcoming">Coming Soon</span>
+              <div class="lab-actions">
+                <button class="btn disabled" disabled>Coming Soon</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-thumb muted" aria-hidden="true">5</div>
+            <div class="lab-body">
+              <h3>Lab 5 — Audio & UI</h3>
+              <p class="lab-desc">Coming soon — Sound design, music, and user interface elements.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge upcoming">Coming Soon</span>
+              <div class="lab-actions">
+                <button class="btn disabled" disabled>Coming Soon</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-thumb muted" aria-hidden="true">6</div>
+            <div class="lab-body">
+              <h3>Lab 6 — Final Project</h3>
+              <p class="lab-desc">Coming soon — Integrate everything into a polished final demo.</p>
+            </div>
+            <div class="lab-meta">
+              <span class="badge upcoming">Coming Soon</span>
+              <div class="lab-actions">
+                <button class="btn disabled" disabled>Coming Soon</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About</h2>
+        <p>This portfolio demonstrates progress through the Computer Game Development course. It is intentionally simple and organized so future labs can be added quickly.</p>
+        <ul>
+          <li>Author: Your Name</li>
+          <li>Course: Computer Game Development</li>
+          <li>Contact: <a href="mailto:you@example.com">you@example.com</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Name — <a href="https://github.com/ICEkungIIR/Computer-Game-Development" target="_blank" rel="noopener">Repository</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
