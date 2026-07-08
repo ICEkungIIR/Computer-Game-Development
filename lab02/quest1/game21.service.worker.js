@@ -4,9 +4,9 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1782980207|1834313495';
+const CACHE_VERSION = '1783527857|93038827';
 /** @type {string} */
-const CACHE_PREFIX = 'instancing-sw-cache-';
+const CACHE_PREFIX = 'Lab02_1-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
 const OFFLINE_URL = 'game21.offline.html';
